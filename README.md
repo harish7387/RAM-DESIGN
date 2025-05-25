@@ -20,3 +20,8 @@ The module consists of several key components. The clock controls the timing of 
 The process of writing and reading data in synchronous RAM follows a structured method. When the clock pulses and the write enable signal is high, the new data input is stored in RAM at the designated address. If the write enable signal is low, the memory retrieves stored information from that address, making it available as output. Because everything happens in sync with the clock, there are no random delays or unpredictable memory access issues.
 
 To implement a synchronous RAM module, hardware designers use Verilog, a Hardware Description Language (HDL) that defines how digital circuits should function. In a simple Verilog model, designers define parameters like data width and address width, create a memory array to store values, and set up a clock-driven process to manage read and write operations efficiently.
+
+
+OUTPUT:
+
+![Image](https://github.com/user-attachments/assets/aa19de65-6f10-4baf-970d-dc70287ca8c1)
